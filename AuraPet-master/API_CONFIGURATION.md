@@ -7,7 +7,6 @@ The AuraPet application uses Google's Gemini AI to power the pet companion chat 
 ### Current Configuration
 
 ✅ **API Key Status**: Active
-- **Key**: `AIzaSyBISVJ7U_tjvCNfOOURu6-9L7eoL5RcWsA`
 - **Location**: `.env` file in the root directory
 - **Variable Name**: `GEMINI_API_KEY`
 
