@@ -2,6 +2,21 @@
 
 AuraPet is an AI-powered emotional wellness mobile application designed to help young teenagers manage stress, anxiety, and loneliness through an interactive virtual pet companion.
 
+## Table of Contents
+
+- [Section 1: Technical Architecture](#section-1-technical-architecture)
+  - [Architecture Overview](#architecture-overview)
+  - [Technology Stack](#technology-stack)
+    - [Flutter (Frontend – Mobile & Admin Web)](#flutter-frontend--mobile--admin-web)
+    - [Firebase (Backend, Database & Infrastructure)](#firebase-backend-database--infrastructure)
+    - [Gemini API (AI Integration)](#gemini-api-ai-integration)
+  - [Data Flow](#data-flow)
+- [Section 4: Future Roadmap](#section-4-future-roadmap)
+  - [Phase 1: Enhanced Accessibility & Personalization](#phase-1-enhanced-accessibility--personalization)
+  - [Phase 2: Professional Support Integration](#phase-2-professional-support-integration)
+  - [Phase 3: Advanced AI & Gamification](#phase-3-advanced-ai--gamification)
+  - [Phase 4: Social & Community Features](#phase-4-social--community-features)
+
 ## Section 1: Technical Architecture
 
 ### Architecture Overview
