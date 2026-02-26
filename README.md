@@ -11,6 +11,13 @@ AuraPet is an AI-powered emotional wellness mobile application designed to help 
     - [Firebase (Backend, Database & Infrastructure)](#firebase-backend-database--infrastructure)
     - [Gemini API (AI Integration)](#gemini-api-ai-integration)
   - [Data Flow](#data-flow)
+- [Section 2: Implementation Details](#section-2-implementation-details)
+  - [AI Pet Companion Module](#21-ai-pet-companion-module)
+  - [Emotion Tracking & Diary Module](#22-emotion-tracking--diary-module)
+  - [Mindfulness & Stress Relief Module](#23-mindfulness--stress-relief-module)
+  - [Sleep & Relaxation Module](#24-sleep--relaxation-module)
+  - [Admin Module](#25-admin-module)
+- [Section 3: Challenges Faced](#section-3-challenges-faced)
 - [Section 4: Future Roadmap](#section-4-future-roadmap)
   - [Phase 1: Enhanced Accessibility & Personalization](#phase-1-enhanced-accessibility--personalization)
   - [Phase 2: Professional Support Integration](#phase-2-professional-support-integration)
@@ -86,6 +93,54 @@ Firebase Storage (Media Files)
     ↓
 Firebase Analytics (Usage Tracking)
 ```
+
+## Section 2: Implementation Details
+AuraPet consists of five integrated modules, each contributing to a seamless emotional wellness experience.
+
+### 2.1 AI Pet Companion Module
+
+- Users choose and personalize an AI pet powered by a Large Language Model (LLM).
+- The pet engages in empathetic, supportive conversations to help users manage stress, anxiety, or loneliness.
+- It tracks mood logs, maintains a diary, and summarizes emotional trends for reflection.
+- The AI can detect early signs of distress and proactively suggest mindfulness activities, sleep support, or calming games, providing personalized emotional guidance.
+
+### 2.2 Emotion Tracking & Diary Module
+
+- Users record daily moods via emojis or text entries, and maintain personal diaries.
+- The system identifies emotional patterns using keyword analysis and generates visual insights like mood calendars.
+- Based on detected emotions, the app offers motivational quotes, personalized advice, and suggested activities.
+- Daily goal setting encourages self-improvement and consistent emotional reflection.
+
+### 2.3 Mindfulness & Stress Relief Module
+
+- Offers guided meditation, calming background music, and visual breathing exercises using box breathing.
+- Includes simple relaxation games such as Bubble Pop, Color by Tap, Trouble Dustbin, and Basketball Game to relieve stress.
+- Focuses on intuitive interaction and low cognitive load to prioritize relaxation over complex gameplay.
+
+### 2.4 Sleep & Relaxation Module
+
+- Provides bedtime stories, relaxing soundscapes, and ASMR audio for better sleep.
+- Tracks user ratings to recommend preferred genres and adapt content suggestions.
+- Features a sleep timer for automatic audio shutdown, supporting healthy bedtime routines.
+
+### 2.5 Admin Module
+
+- Central hub for monitoring mood trends, user feedback, and overall app usage.
+- Admins can manage audio content, user accounts, and feedback status updates.
+- Ensures smooth operation and moderation while maintaining user privacy and data security.
+
+## Section 3: Challenges Faced
+
+### Prompt Engineering for Safe AI Personality
+
+**Problem:** Ensuring the AI pet remained cheerful, empathetic, and safe while handling sensitive emotional topics for teenagers.
+
+**Solution:**
+
+- Structured system prompts to define tone, behavior rules, and safety constraints.
+- Iterative refinement based on user interaction and edge-case testing.
+
+**Outcome:** Achieved natural, consistent, and emotionally sensitive AI responses while maintaining user safety.
 
 ## Section 4: Future Roadmap
 
