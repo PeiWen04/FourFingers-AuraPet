@@ -4,6 +4,7 @@ AuraPet is an AI-powered emotional wellness mobile application designed to help 
 
 ## Table of Contents
 
+- [Setup Instructions](#-setup-instructions)
 - [Section 1: Technical Architecture](#section-1-technical-architecture)
   - [Architecture Overview](#architecture-overview)
   - [Technology Stack](#technology-stack)
@@ -23,6 +24,34 @@ AuraPet is an AI-powered emotional wellness mobile application designed to help 
   - [Phase 2: Professional Support Integration](#phase-2-professional-support-integration)
   - [Phase 3: Advanced AI & Gamification](#phase-3-advanced-ai--gamification)
   - [Phase 4: Social & Community Features](#phase-4-social--community-features)
+
+## 🚀 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/PeiWen04/FourFingers-AuraPet.git
+cd FourFingers-AuraPet
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the project
+
+```bash
+flutter run
+```
+
+### 🔧 If you face build issues
+
+```bash
+flutter clean
+flutter pub get
+```
 
 ## Section 1: Technical Architecture
 
@@ -95,6 +124,7 @@ Firebase Analytics (Usage Tracking)
 ```
 
 ## Section 2: Implementation Details
+
 AuraPet consists of five integrated modules, each contributing to a seamless emotional wellness experience.
 
 ### 2.1 AI Pet Companion Module
